@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+/* Set default background color */
+body {
+  background-color: #d9dcd6;
+}
+/* set default font size to 16px */
+p {
+  font-size: 16px;
+}
+
+/* Changed the div class header to the header semantic element. Made the header a flex element to help ensure all of the content remains contained within upon resizing of the viewport */
+header {
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* set font size of header */
+header h1 {
+  font-size: 48px;
+}
+
+/* Changed the color of 'seo' within main header to one that contrasts more with both the background and other text and edded an underline. This makes the 'seo' of Hirseon stand out to emphasize that this company specializes in search engine optimization*/
+header h1 .seo {
+  color: #f3e30a;
+  text-decoration: underline;
+}
+
+/* Changed the div housed within the header to the nav semantic element*/
+nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+/* removed bullets of the list */
+nav ul {
+  list-style-type: none;
+}
+
+/* made navigation list elements sit horizontally */
+nav li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+/* remove underline of navigation links */
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* set figure attributes and pull in source image */
+figure {
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/digital-marketing-meeting.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* define main section width and stack child elements vertically */
+section {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/* define container attributes of business-offerings subsections  */
+.business-offerings {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+/* define attributes of headers within business-offerings subsections */
+.business-offerings h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+/* define image size attributes withins business-offereings subsections */
+.business-offerings img {
+  max-height: 200px;
+}
+
+/* position image to left of container */
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+/* position image to the right of the container */
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+/* define attributes of the aside container, positioning to the right */
+aside {
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2589bd;
+}
+
+/* define basic formatting within the aside */
+.benefit {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+/* define subheader attributes within the aside */
+.benefit h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* define image attributes within the aside */
+.benefit img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+/* define attributes of footer container */
+footer {
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+/* define font size within footer */
+footer h2 {
+  font-size: 20px;
+}
