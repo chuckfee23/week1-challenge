@@ -13,3 +13,5 @@ Key Changes made to the existing code:
     -Added alt attributes to all images to make the page more accessible.
 
     -Removed lots of redundant CSS code to consolidate and make it easier to follow in a logical manner
+
+Charles Hargrave
