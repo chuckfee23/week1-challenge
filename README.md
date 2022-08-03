@@ -6,7 +6,7 @@ Key Changes made to the existing code:
 
     -Since Horiseon specialized in SEO, I added more of a contrasting color in that part of their main header and underlined to add clarity.
 
-![My Image](./Develop/assets/images/Screen-Shot.png)
+![My Image](./Assets/images/Screen-Shot.png)
 
     -Added id's to each of the summary sections to enable the links in the nav bar to scroll to those sections smoothly.
 
